@@ -1,0 +1,14 @@
+name: Primer Flujo de Trabajo
+
+on:
+  workflow_dispatch:
+
+jobs:
+  job1:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Paso 1
+        run: echo "step1"
+
+      - name: Paso 2
+        run: echo "step2"
