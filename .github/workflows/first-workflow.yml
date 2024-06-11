@@ -24,5 +24,6 @@ jobs:
       - name: Cowsay Action
         uses: mscoutermarsh/cowsays-action@master
         with:
-          args: "Hello, GitHub Actions!"
+          text: 'ship ship ship!'
+          color: 'red'
 
