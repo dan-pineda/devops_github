@@ -22,7 +22,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Cowsay Action
-        uses: docker://nschloe/cowsay@master
+        uses: mscoutermarsh/cowsays-action@master
         with:
           args: "Hello, GitHub Actions!"
 
