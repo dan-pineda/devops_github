@@ -22,7 +22,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Cowsay Action
-        uses: mscoutermarsh/cowsays-action@master
+        uses: mscoutermarsh/cowsays-action@🐄
         with:
           text: 'Hola, ship ship ship!'
           color: 'green'
